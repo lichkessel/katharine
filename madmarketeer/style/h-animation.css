@@ -1,0 +1,25 @@
+.h-container {
+  position:relative;
+}
+.h-static,
+.h-dynamic 
+{
+  top:calc(40% - 25px);
+}
+.h-static {
+
+  left:calc(50% - 287px);
+  position:absolute;
+}
+.h-dynamic {
+  left:calc(50% + 11px);
+  display:inline-block;
+  overflow:hidden;
+  position:absolute;
+}
+.h-dynamic > *
+{
+  display:none;
+}
+.h-dynamic > *.h-active
+{ display:inline-block }
