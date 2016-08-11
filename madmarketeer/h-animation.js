@@ -4,7 +4,7 @@ $(function() {
     frame
     .delay(2000)
     .animate({
-      width:20
+      width:0
     },500, function() {
       var child = frame.children('.h-active');
       child.removeClass('h-active');
